@@ -1,0 +1,111 @@
+body
+{
+	font-family: sans-serif;
+}
+
+.navbar-brand
+{
+	font-size: 30px !important;
+	height: 80px !important;
+	line-height:35px;
+	color: white !important;
+	
+}
+
+.navbar-default
+{
+	background-color: rgba(3,8,37,0.7);
+	border: none !important;
+}
+
+.navbar-right li a
+{
+	font-size: 18px !important;
+	height: 80px !important;
+	line-height:50px;
+	color: white !important;
+	padding: 15px 18px !important;
+}
+
+.navbar-right li a:hover
+{
+	border: 1px solid white;
+}
+
+.options{
+	padding: 0px 0px;
+	margin: 15px;
+}
+
+.types 
+{
+	text-align: center;
+	height: 240px;
+	position:relative;
+	
+	}
+
+.schedule
+{
+	background-image: url(../img/Schedule.jpg);
+	background-position: center;
+}
+
+.reschedule
+{
+	background-image: url(../img/Reschedule.jpg);
+	background-position: center;
+}
+
+.cancel
+{
+	background-image: url(../img/cancel.jpeg);
+	background-position: center;
+}
+
+.view
+{
+	background-image: url(../img/view.jpg);
+	background-position: center;
+}
+
+.types .content
+{
+  position:absolute;
+  bottom:0%;
+  width:100%;
+  height: 120px;
+  background-color:rgba(3,8,37,0.7);
+  padding: 15px 0px;
+  transition: height 1s;
+}
+
+.content:hover 
+{
+	height: 240px;
+	transition: height 1s;
+	
+}
+
+
+.content h3 a
+{
+	color: white !important;
+	text-decoration: none;
+
+}
+
+.content h3 a:hover
+{
+	color: rgba(3,8,37,0.7) !important;
+	background-color: white;
+	padding: 5px 10px;
+}
+
+
+
+.btn
+{
+	font-size: 20px !important;
+	opacity: 1 !important;
+}
