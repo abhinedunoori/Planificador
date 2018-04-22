@@ -12,10 +12,11 @@ body
 	
 }
 
-.navbar-default
+.main-nav
 {
 	background-color: rgba(3,8,37,0.7);
 	border: none !important;
+	margin-bottom: 0px !important;
 }
 
 .navbar-right li a
@@ -108,4 +109,15 @@ body
 {
 	font-size: 20px !important;
 	opacity: 1 !important;
+}
+
+.schedule_form
+{
+	margin-bottom: 20px;
+}
+
+.schedule_form .form-group
+{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
 }
